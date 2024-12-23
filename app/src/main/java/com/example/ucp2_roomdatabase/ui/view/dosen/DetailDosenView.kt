@@ -66,6 +66,7 @@ fun ItemDetailDosen(
             containerColor = Color(0xFF303030),
             contentColor = Color.White
         ),
+
     ) {
         Column(
             modifier = Modifier.padding(16.dp)
