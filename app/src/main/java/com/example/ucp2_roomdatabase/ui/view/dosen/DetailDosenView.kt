@@ -37,11 +37,11 @@ fun DetailDosenView(
                     .background(
                         Brush.linearGradient(
                             colors = listOf(
-                                Color(0xFF212121), // Dark gray
-                                Color(0xFF37474F)  // Dark blue-gray
+                                Color(0xFF212121),
+                                Color(0xFF37474F)
                             )
                         )
-                    )  // Dark gradient for the top bar
+                    )
             )
         },
     ) { innerPadding ->
@@ -63,7 +63,7 @@ fun ItemDetailDosen(
             .fillMaxWidth()
             .padding(16.dp),
         colors = CardDefaults.cardColors(
-            containerColor = Color(0xFF303030), // Dark background for retro feel
+            containerColor = Color(0xFF303030),
             contentColor = Color.White
         ),
     ) {
@@ -124,14 +124,14 @@ fun ComponentDetailDosen(
         Text(
             text = "$judul : ",
             fontSize = 20.sp,
-            fontWeight = FontWeight.Normal, // Default font weight
-            color = Color.Gray // Default color for title
+            fontWeight = FontWeight.Normal,
+            color = Color.Gray
         )
         Text(
             text = isinya,
             fontSize = 20.sp,
-            fontWeight = FontWeight.Normal, // Default font weight
-            color = Color.White // White text for contrast on dark background
+            fontWeight = FontWeight.Normal,
+            color = Color.White
         )
     }
 }
