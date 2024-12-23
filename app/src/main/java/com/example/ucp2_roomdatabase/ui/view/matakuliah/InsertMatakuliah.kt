@@ -76,6 +76,7 @@ fun InsertMataKuliahView(
         }
     }
 
+
     Scaffold(
         modifier = modifier,
         snackbarHost = { SnackbarHost(hostState = snackbarHostState) }
@@ -86,6 +87,7 @@ fun InsertMataKuliahView(
                 .padding(padding)
                 .background(Color.White) // Mengubah latar belakang menjadi putih
         ) {
+
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
