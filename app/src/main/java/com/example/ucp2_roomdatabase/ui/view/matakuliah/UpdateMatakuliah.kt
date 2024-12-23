@@ -81,6 +81,7 @@ fun UpdateMataKuliahView(
                 onValueChange = {updateEvent ->
                     viewModel.updateState(updateEvent) // update state di viewmodel
                 },
+
                 onClick = {
                     coroutineScope.launch {
                         if (viewModel.validateFields()){
