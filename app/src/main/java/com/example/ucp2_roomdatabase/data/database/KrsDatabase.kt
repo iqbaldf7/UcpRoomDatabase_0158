@@ -13,6 +13,7 @@ abstract class KrsDatabase : RoomDatabase() {
     abstract fun mataKuliahDao(): MataKuliahDao
     abstract fun DosenDao(): DosenDao
 
+
     companion object {
         @Volatile
         private var Instance: KrsDatabase? = null
