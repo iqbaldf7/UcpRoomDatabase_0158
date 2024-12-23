@@ -8,6 +8,7 @@ class LocalRepositoryDsn(
 ) : RepositoryDosen {
 
 
+
     override suspend fun insertDosen(dosen: Dosen) {
         dosenDao.insertDosen(dosen)
     }
