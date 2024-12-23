@@ -1,7 +1,5 @@
 ![Screenshot 2024-12-23 192434](https://github.com/user-attachments/assets/f7607716-b687-4cb7-9ff3-c38952a73451)
 
-![Screenshot 2024-12-23 192923](https://github.com/user-attachments/assets/c66362c5-59c1-400d-9056-ad5a6cf31ac0)
-
 ![Screenshot 2024-12-23 192618](https://github.com/user-attachments/assets/be6590ed-56e8-40fe-aec1-861585eb2e37)
 
 ![Screenshot 2024-12-23 193120](https://github.com/user-attachments/assets/0356901a-789b-43b5-b31a-d1e28da57601)
