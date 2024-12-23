@@ -106,6 +106,7 @@ fun HomeView(
                     contentDescription = "Mata Kuliah Icon",
                     modifier = Modifier.size(24.dp),
                     tint = Color.White
+
                 )
                 Spacer(modifier = Modifier.size(8.dp))
                 Text(
