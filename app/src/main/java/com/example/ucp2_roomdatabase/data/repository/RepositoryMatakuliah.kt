@@ -13,3 +13,4 @@ interface RepositoryMataKuliah {
 
     fun getDetailMataKuliah(kode: String): Flow<MataKuliah>
 }
+
