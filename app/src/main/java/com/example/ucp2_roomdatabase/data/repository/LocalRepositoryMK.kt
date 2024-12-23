@@ -7,6 +7,7 @@ class LocalRepositoryMk(
     private val mataKuliahDao: MataKuliahDao
 ) : RepositoryMataKuliah{
 
+
     // Menambahkan mata kuliah baru
     override suspend fun insertMataKuliah(matakuliah: MataKuliah) {
         mataKuliahDao.insertMataKuliah(matakuliah)
